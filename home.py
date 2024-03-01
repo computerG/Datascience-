@@ -34,6 +34,11 @@ print("===MEDIAN===")
 print(household_df_numeric.median().round(2))
 print("===MODE===")
 print(household_df_numeric.mode().round(2))
+print("===Covariance===")
+print(household_df_numeric.cov().round(2))
+print("===Correlation===")
+print(household_df_numeric.corr().round(2))
+
 
 
 
